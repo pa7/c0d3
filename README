@@ -1,0 +1,11 @@
+c0d3.js - A Javascript encoding/decoding library
+The purpose of this project is to have a centralized library for encoding/decoding in javascript.
+
+The library is module based, everyone could easyly write a new module.
+It's designed to just load the modules which are needed for keeping the traffic/library size low.
+
+Contact:
+If you have some suggestions, please don't hesitate to contact me
+Patrick Wied ( http://www.patrick-wied.at )
+contact@patrick-wied.at
+
