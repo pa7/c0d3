@@ -19,8 +19,7 @@
 			canvas.style.display = "none";
 			var b = document.getElementsByTagName("body")[0];
 			b.appendChild(canvas);
-			if(!!canvas.getContext)
-				ctx = canvas.getContext("2d");
+			ctx = canvas.getContext("2d");
 		},
 		console = {
 			log: function(message){
