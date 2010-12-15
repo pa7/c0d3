@@ -77,7 +77,7 @@
 						cfg.canvas = canvas;
 					}
 					
-					modules["decode-"+from](cfg);
+					return modules["decode-"+from]["logic"](cfg);
 				}else
 					console.log("Core: Module 'decode-"+from+"' not registered");
 				
